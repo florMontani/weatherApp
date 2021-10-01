@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+/* body{
+    background-color: whitesmoke;
+} */
+.container{
+margin: 5em;
+width:100%;
+justify-content: center;
+}
+h1{
+    justify-content:center;
+    max-width:70%;
+}
+
+.location_city, .location_date{
+     font-weight: bold;
+}
+
+.whether{
+    margin-top: 25px;
+    font-size:20px;
+}
+
+input{
+    font-size: 1.5rem;
+    margin-top: 2em;
+    border-radius: 20px;
+    max-width:60%;
+    justify-content: center;
+    
+}
+button{
+    border-radius: 20px;
+    margin-top:1em; 
+
+}
+.inputTemp_celsius{
+    font-weight: bold;
+    font-size:50px;
+
+    align-items: center;
+
+}
+.inputTemp_description, h1>span{
+    color: lightskyblue;
+    font-weight: bold;
+    
+  
+
+}
+
+.inputTemp_description{
+    font-size:30px;
+
+}
+
+.inputTemp_number{
+    margin-top:25px;
+}
+
+.location_hours{
+    margin-bottom:15px;
+    font-weight: bold;
+    font-size:20px;
+}

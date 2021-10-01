@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  href="icono.png" rel="icon"/>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Florencia Montani, Cátedra PWA</title>
+</head>
+<body>
+    <div class="container">
+        <div class="location_hours" id="hours"> </div>
+        <h1>Hola! consultá el <span>clima.</span></h1>
+        <div class="inputTemp">
+            <div class="search_submit" id="search_submit">
+                <input type="text" class="form-control" id="search_input" placeholder="Ingresá tu localización...">
+                <button type="submit" class="btn btn-light"  id="send">enviar</button>
+            </div>
+            <div class="inputTemp_number">
+                <div class="inputTemp_celsius" id="degreeNumber"></div>
+                <img id="inputTemp_symbol" src="" alt="">
+            </div>
+    
+            <div id="wheterIcon"></div>
+            <p class="inputTemp_description" id="description"></p>
+        </div>
+            
+            <div class="location_city" id="city"> </div>
+            <div class="location_date" id="date"> </div>
+           
+            
+            <div class="whether">
+                <p class="whether_min"><span id="min"></span></p>
+                <p class="whether_max"><span id="max"></span></p>
+                <p id="humidity"> </p>
+                <p id="thermalSensation"> </p>
+                <p id="pressure"> </p>
+                <p id="wind"> </p>
+                
+            </div>
+            <div class="img">
+                <img id="img" src=""alt="">
+            </div>
+        </div>
+
+    <script src="api.js"></script>
+</body>
+</html>
